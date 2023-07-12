@@ -1,45 +1,36 @@
-/* Red, orange, yellow, green, blue, indigo, viole */
-console.log ("swagat")
-  html {
-    margin: 0;
-  }
-  
-  span {
-    display: block;
-  }
-  .canvas {
-    margin: 100px auto 100px;
-    width: 80%;
-    text-align: center;
-  }
-  
-  .button {
-    width: 100px;
-    height: 100px;
-    border: solid black 2px;
-    display: inline-block;
-  }
-  
-  #red {
-    background: red;
-  }
-  
-  #orange {
-    background: orange;
-  }
-  #yellow {
-    background: yellow;  
-  }
-  #green {
-    background: green;
-  }
-  #blue {
-    background: blue;
-  }
-  #indigo{
-    background: indigo;
-  }
-  #violet{
-    background: violet;
-  }
+const buttons = document.querySelectorAll('.button');
+const body = document.querySelector("body")
+
+
+buttons.forEach(function(button){
+  console.log(button);
+  button.addEventListener('click',function(e){
+    console.log(e);
+    console.log(e.target);
+    if (e.target.id === 'red'){
+      body.style.background = e.target.id;
+    }
+    if (e.target.id === 'orange'){
+      body.style.background = e.target.id;
+    }
+    if (e.target.id === 'yellow'){
+      body.style.background = e.target.id;
+    }
+    if (e.target.id === 'green'){
+      body.style.background = e.target.id;
+    }
+    if (e.target.id === 'blue'){
+      body.style.background = e.target.id;
+    }
+    if (e.target.id === 'indigo'){
+      body.style.background = e.target.id;
+    }
+    if (e.target.id === 'violet'){
+      body.style.background = e.target.id;
+    }
+
+  })
+
+});
+
   
