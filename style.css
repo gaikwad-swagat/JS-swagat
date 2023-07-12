@@ -18,17 +18,27 @@ html {
     display: inline-block;
   }
   
-  #grey {
-    background: grey;
+  #red {
+    background: red;
   }
   
-  #white {
-    background: white;
+  #orange {
+    background: orange;
+  }
+  #yellow {
+    background: yellow;  
+  }
+  #green {
+    background: green;
   }
   #blue {
     background: blue;
   }
-  #yellow {
-    background: yellow;
+  #indigo{
+    background: indigo;
   }
+  #violet{
+    background: violet;
+  }
+  
   
