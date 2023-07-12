@@ -1,2 +1,4 @@
 # JS-swagat
-JavaScript-Basic-Project
+JavaScript-Basic-Project 
+
+7 Colour Rainbow Scheme Switcher
